@@ -1,6 +1,4 @@
 <?php
-
-
 // ---- WEATHER PREFERENCES
 
 $key = "xyz"; // your secret darksky key
@@ -82,5 +80,4 @@ function connectDb($dataarr, $sn, $un, $pw, $db, $ta, $te, $pre, $prep, $su, $da
 // ---- EXECUTE
 
 connectDb(getWeatherData($key, $latitude, $longitude, $units), $servername, $username, $password, $dbname, $table, $atemp, $precib, $precpr, $sum, $date);
-
 ?>    
