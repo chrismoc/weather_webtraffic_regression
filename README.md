@@ -6,4 +6,5 @@ As this is just a play-around, downsides currenty are:
 <li>Only works for one location regarding weather data (whereas visitors can come from different locations)</li>
 <li>Regression analysis doesn't perform very well so far</li>
 <li>Approach to apply regression analysis and to evaluate model not very good as I don't have gathered enough data yet</li>
+<li>To keep it simple, limited to linear regression models so far</li>  
 </ul>  
